@@ -1,107 +1,116 @@
 body,
 html {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 * {
-    margin: 10px;
-    padding: 10px;
-    box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: black;
-    display: flex;
-    flex-flow: column;
-    justify-content:space-between;
+  background-color: black;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
 aside {
-    background-color: blueviolet;
-    flex: 1;
+  background-color: blueviolet;
+  flex: 1;
 }
 
 footer {
-    background-color: black;
+  background-color: black;
 }
 
-.contenedor {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
+.contenedor  {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-bot {
-    background-color: lightsalmon;
-    margin-top: 0.3rem;
+  background-color: lightsalmon;
+  margin-top: 0.3rem;
 }
 
 .nav {
-    background-color: lightblue;
-    display: flex;
-    margin-bottom: 0.3rem;
+  background-color: lightblue;
+  display: flex;
+  margin-bottom: 0.3rem;
 }
 
 .contenedor-article {
-    background-color: lightgreen;
-    display: flex;
-    flex-flow: row wrap;
-    flex: 2;
+  background-color: rgb(162, 45, 183);
+  display: flex;
+  flex-flow: row wrap;
+  flex: 2;
 }
 
 .header-izq {
-    background-color: brown;
-    flex: 1;
-    
+  background-color: brown;
+  flex: 1;
 }
 
 .header-centro {
-    background-color: brown;
-    flex: 4;
+  background-color: brown;
+  flex: 4;
 }
 
 .header-der {
-    background-color: brown;
-    flex: 1;
+  background-color: brown;
+  flex: 1;
 }
 
-.contenedor-titulo {
-    background-color: lightsalmon;
+.contenedor-titulo  {
+  background-color: lightsalmon;
 }
 
 .titulo {
-    background-color: lightyellow;
+  background-color: lightyellow;
 }
 
 .contenedor-centro {
-    background-color: black;
-    display: flex;
-    flex-flow:row;
-    justify-content:space-between;
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
 }
 
 .articles {
-    background-color: gold;
-    flex: 1 1 40%;
+  background-color: rgb(15, 110, 113);
+  flex: 1 1 40%;
 }
 
 .foot-article {
-    background-color:brown ;
-    flex: 1 1 100%;
+  background-color: brown;
+  flex: 1 1 100%;
 }
 
 .aside-article {
-    background-color: yellow;
+  background-color: green;
 }
 
 .foot {
-    background-color: greenyellow;
+  background-color: greenyellow;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* For tablets and Ipads */
+  .contenedor-centro {
+    flex-flow: column;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+  }
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 320px) and (max-width: 480px) {
   
     /* CSS */
     
