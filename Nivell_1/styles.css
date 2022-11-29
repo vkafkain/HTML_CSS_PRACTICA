@@ -99,7 +99,7 @@ footer {
   background-color: greenyellow;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   /* For tablets and Ipads */
   .contenedor-centro {
     flex-flow: column;
@@ -109,9 +109,45 @@ footer {
   }
 }
 
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
-    /* CSS */
-    
+@media (max-width: 480px) {
+  /* For mobile and Iphone */
+  header {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
   }
+  .nav {
+    background-color: lightblue;
+    display: flex;
+    margin-bottom: 1rem;
+    flex-flow: column;
+  }
+
+  .contenedor-article {
+    background-color: rgb(75, 123, 189);
+    display: flex;
+    flex-flow: column;
+    flex: 2;
+  }
+
+.articles {
+  background-color: rgb(210, 24, 24);
+  flex: 1 1 40%;
+}
+
+.foot-article {
+  background-color: rgb(78, 14, 85);
+  flex: 1 1 100%;
+}
+
+aside {
+  background-color: rgb(198, 137, 33);
+  flex: 1;
+}
+
+.aside-article {
+  background-color: rgb(20, 18, 79);
+}
+
+
+}
