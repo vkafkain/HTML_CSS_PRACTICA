@@ -99,3 +99,10 @@ footer {
 .foot {
     background-color: greenyellow;
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS */
+    
+  }
